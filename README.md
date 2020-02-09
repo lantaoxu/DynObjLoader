@@ -18,3 +18,8 @@ In your project, use the header file "DynObjectLoader.h" in the (./include/) fol
 
 In the provided example in (./example/), we load (instantiate) a pre-compiled C++ class (MyObject.bin) within another program (loader.exe). The loader and loaded object should however agree on the base type, which is in this clase a base class named (ObjectBase).
 
+To build the example, run:
+
+$ cd example
+$ make
+$ ./loader.exe
