@@ -20,8 +20,8 @@ In the provided example in (./example/), we load (instantiate) a pre-compiled C+
 
 To build the example, run:
 
-'''
+```
 $ cd example
 $ make
 $ ./loader.exe
-'''
+```
